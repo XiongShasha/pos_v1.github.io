@@ -1,5 +1,5 @@
 #1. 通过调用loadAllViews()函数获得商品的部分信息inputsArr：[Object],再通过其与tags的barcode联系，
-    并计算count，生成最终包含所有购买商品信息的信息comInputs：[Object]
+    并计算count，生成最终包含所有购买商品信息的信息comInputs：[Object] (15min)
     
     输入：inputsArr:[Object],tags:[String]
     输出：comInputs:[{
@@ -10,7 +10,7 @@
       count：Number
     }]
 
-#2.计算出每个折扣商品的折扣数量（通过调用loadPromotion()函数获得折扣的商品信息saleInputs:[Object]）
+#2.计算出每个折扣商品的折扣数量，price为单价（通过调用loadPromotion()函数获得折扣的商品信息saleInputs:[Object]）(15min)
    
    输入：comInputs:[Object],saleInputs:[Object]
    输出：saleCount:[{
@@ -19,17 +19,17 @@
        count:Number
    }]
 
-#3.计算小计
+#3.计算小计(10min)
    
    输入：comInputs:[Object]
    输出：perSum:[Number]
 
-#4.计算总金额
+#4.计算总金额(5min)
  
    输入：perSum:[Number]
    输出：tolSum:[Number]
 
-#5.计算节省金额
+#5.计算节省金额(5min)
    
    输入：saleCount:[Object]
    输出：saleSum:[Number]
