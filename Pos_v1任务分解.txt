@@ -1,7 +1,7 @@
 #1. 通过调用loadAllViews()函数获得商品的部分信息inputsArr：[Object],再通过其与tags的barcode联系，
     并计算count，生成最终包含所有购买商品信息的信息comInputs：[Object]
     
-    输入：inputs:[Object],tags:[String]
+    输入：inputsArr:[Object],tags:[String]
     输出：comInputs:[{
       barcode: String,
       name: String,
