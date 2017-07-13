@@ -1,0 +1,40 @@
+#1. 通过调用loadAllViews()函数获得商品的部分信息inputsArr：[Object],再通过其与tags的barcode联系，
+    并计算count，生成最终包含所有购买商品信息的信息comInputs：[Object]
+    
+    输入：inputs:[Object],tags:[String]
+    输出：comInputs:[{
+      barcode: String,
+      name: String,
+      unit: String,
+      price: Number,
+      count：Number
+    }]
+
+#2.计算出每个折扣商品的折扣数量（通过调用loadPromotion()函数获得折扣的商品信息saleInputs:[Object]）
+   
+   输入：comInputs:[Object],saleInputs:[Object]
+   输出：saleCount:[{
+       barcode:String,
+       price：Number,
+       count:Number
+   }]
+
+#3.计算小计
+   
+   输入：comInputs:[Object]
+   输出：perSum:[Number]
+
+#4.计算总金额
+ 
+   输入：perSum:[Number]
+   输出：tolSum:[Number]
+
+#5.计算节省金额
+   
+   输入：saleCount:[Object]
+   输出：saleSum:[Number]
+
+#6.打印
+
+   输入：comInputs:[Object]，perSum:[Number]，tolSum:[Number]，saleSum:[Number]
+   输出：return:String
