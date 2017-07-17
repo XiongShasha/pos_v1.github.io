@@ -48,7 +48,7 @@ function loadPromotions() {
       barcodes: [
         'ITEM000000',
         'ITEM000001',
-      //  'ITEM000005'
+        'ITEM000005'
       ]
     }
   ];

@@ -13,11 +13,7 @@
 #2.计算出每个折扣商品的折扣数量，price为单价（通过调用loadPromotion()函数获得折扣的商品信息saleInputs:[Object]）(15min)
    
    输入：comInputs:[Object],saleInputs:[Object]
-   输出：saleCount:[{
-       barcode:String,
-       price：Number,
-       count:Number
-   }]
+   输出：saleCount:[Number]
 
 #3.计算小计(10min)
    
